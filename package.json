@@ -1,0 +1,27 @@
+{
+  "name": "tui-playwright-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation for TUI.nl booking flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "tui"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1",
+    "dotenv": "^16.0.0",
+    "typescript": "^5.0.0"
+  }
+}
